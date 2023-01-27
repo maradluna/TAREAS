@@ -1,2 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "comic sans ms", "comic sans", cursive;
+}
 
+
+h1{
+    font-size: 25px;
+    margin: 50px 50px 20px;
+    padding: 80px 50px;
+    background-image: url(imagenes/design1_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header>img{
+    width: 285px;
+}
+
+.imagen1{
+display: inline-block;
+}
+
+.subtitulo{
+font-size: 10px;
+display: inline-block;
+background-color: black;
+color: white;
+margin-top: 2px;
+}
+
+.imagen2{
+    display: inline-block;
+    }
+
+a{
+    display: block ;
+    padding: 15px;
+    font-size: 7px;
+}
+
+h4{
+    font-size: 8px;
+    font-style: bold;
+}
+
+p{
+    font-size: 7px;
+}
+
+nav{
+    display: inline-block;
+    padding: 15px;
+}
+
+.container {
+    display: inline-block;
+}
+
+div.evento{
+    padding: 8px;
+}
 
