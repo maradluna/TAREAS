@@ -40,7 +40,7 @@ position: relative;
     left: 55px;
 }
 
-.imagen2{
+.logo{
     position: absolute;
     bottom: -60px;
     left: 685px;
@@ -59,19 +59,34 @@ h4{
 nav{
     display: inline-block;
     padding: 50px 50px 0px 0px;
-    margin: 35px;
+    margin: 35px 0px 0px;
+    position: absolute;
 }
 
 .container {
     width: 600px;
     display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 100px;
 }
 
 div.evento{
     padding: 8px;
 }
 
+.containerAbout{
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
 
-about
-
-
+.containerContact{
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
