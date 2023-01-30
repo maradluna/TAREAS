@@ -5,61 +5,73 @@
     font-family: "comic sans ms", "comic sans", cursive;
 }
 
+header{
+    padding: 50px 50px 5px;
+    margin: 50px 60px 5px;
+}
 
 h1{
-    font-size: 25px;
-    margin: 50px 50px 20px;
-    padding: 80px 50px;
-    background-image: url(imagenes/design1_image1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    font-size: 50px;
+    position: absolute;
 }
 
 header>img{
-    width: 285px;
+    max-width: 100%;
 }
 
-.imagen1{
-display: inline-block;
+main{
+height: 100px;
+padding: 0px 50px 0px;
+margin: 0px 60px 0px;
 }
 
 .subtitulo{
-font-size: 10px;
-display: inline-block;
+    width: auto;
+font-size: 25px;
 background-color: black;
 color: white;
-margin-top: 2px;
+text-align: center;
+position: relative;
+}
+
+.imagen1{
+    position: absolute;
+    bottom: -35px;
+    left: 55px;
 }
 
 .imagen2{
-    display: inline-block;
-    }
+    position: absolute;
+    bottom: -60px;
+    left: 685px;
+}
 
 a{
     display: block ;
-    padding: 15px;
-    font-size: 7px;
+    padding: 25px;
 }
 
 h4{
-    font-size: 8px;
     font-style: bold;
-}
-
-p{
-    font-size: 7px;
+    font-style: italic ;
 }
 
 nav{
     display: inline-block;
-    padding: 15px;
+    padding: 50px 50px 0px 0px;
+    margin: 35px;
 }
 
 .container {
+    width: 600px;
     display: inline-block;
 }
 
 div.evento{
     padding: 8px;
 }
+
+
+about
+
 
