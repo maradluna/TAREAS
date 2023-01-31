@@ -68,7 +68,6 @@ a[href="#"]{
     background-color: limegreen;
 }
 
-
 .container {
     width: 600px;
     display: inline-block;
@@ -84,4 +83,12 @@ h4{
 
 div.evento{
     padding: 8px;
+}
+
+.containerAbout{
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 50px;
 }
