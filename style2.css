@@ -92,3 +92,14 @@ div.evento{
     left: 200px;
     top: 50px;
 }
+
+.containerContact{
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 60px;
+}
+.containerContact>p{
+    padding: 8px 0px 8px;
+}
