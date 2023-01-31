@@ -9,3 +9,62 @@ h1{
     font-style: italic;
 }
 
+#diseño1{
+display: none;
+}
+
+header{
+    padding: 50px 50px 5px;
+    margin: 50px 60px 5px;
+}
+
+header>img{
+    max-width: 100%;
+}
+
+main{
+    height: 100px;
+    padding: 0px 50px 0px;
+    margin: 0px 60px 0px;
+    }
+
+.subtitulo{
+width: auto;
+height: 40px;
+font-size: 25px;
+text-align: center;
+position: relative;
+border: thin black solid;
+}
+
+.logo{
+    position: absolute;
+    bottom: -200px;
+}
+
+.imagen1 {
+    position: absolute;
+    top: 250px;
+}
+
+.container {
+    width: 600px;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+
+h4{
+    font-style: bold;
+    font-style: italic ;
+}
+
+div.evento{
+    padding: 8px;
+}
+
+nav>a{
+    display: inline;
+    border-style: inset;
+}
