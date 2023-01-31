@@ -47,12 +47,34 @@ border: thin black solid;
     top: 250px;
 }
 
+nav {
+    position: absolute;
+    left: 700px;
+    top: 130px;
+}
+
+nav>a{
+    display: inline;
+    border: thin solid black;
+    box-shadow: 2px 2px grey;
+    text-decoration: none;
+    padding: 2px 10px;
+    margin: 5px;
+    color: white;
+    background-color: royalblue;
+}
+
+a[href="#"]{
+    background-color: limegreen;
+}
+
+
 .container {
     width: 600px;
     display: inline-block;
     position: relative;
     left: 200px;
-    top: 30px;
+    top: 50px;
 }
 
 h4{
@@ -62,9 +84,4 @@ h4{
 
 div.evento{
     padding: 8px;
-}
-
-nav>a{
-    display: inline;
-    border-style: inset;
 }
