@@ -3,3 +3,37 @@
     margin: 0px;
     box-sizing: border-box;
 }
+
+
+header{
+    width: 100%;
+    height: 200px;
+}
+
+header>img{
+    display: none;
+    }
+
+.imagen1{
+     display: none;
+}
+
+.logo>img{
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    z-index: 0;
+    opacity: 0.4;
+}
+
+h1 {
+    width: auto;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+
+}
