@@ -109,9 +109,14 @@ h4 {
 
 .containerAbout{
     text-align: center;
-    margin: 80px;
+    margin: 50px 350px;
     font-size: 25px;
-    padding: 0px 300px
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .containerContact{
