@@ -12,12 +12,9 @@ header{
 }
 
 header>img{
-    display: none;
-    }
+    width: 250px;
 
-.imagen1{
-     display: none;
-}
+    }
 
 .logo>img{
     width: 60%;
@@ -32,20 +29,51 @@ header>img{
 
 h1 {
     width: auto;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
-    padding: 10px 10px 50px;
+    padding: 30px 10px 30px;
     margin: 0px 0px 50px;
     background: gold;
     position: relative;
 }
 
+img#diseño2 {
+    position: fixed;
+    left: 2%;
+    top: 17%;
+}
+
+img#diseño1 {
+    position: fixed;
+    top: 41%;
+    left: 2%;
+}
+
+.imagen1 {
+    opacity: 1;
+    position: fixed;
+    left: 2%;
+    top: 74%;
+}
+
+h3 {
+    margin: 2px;
+    font-size: 45px;
+    font-weight: normal;
+    background-color: black;
+    color: white;
+    padding: 10px 0px 15px;
+    position: relative;
+    left: 32%;
+    WIDTH: 555px;
+}
+
 nav {
     position: absolute;
-    right: 50px;
-    top: 125px;
+    right: 1%;
+    top: 16%;
 }
 
 nav>a{
@@ -54,7 +82,7 @@ nav>a{
     background: whitesmoke;
     color: black;
     box-shadow: 4px 4px gold;
-    width: 150px;
+    width: 220px;
     height: 35px;
     text-align: center;
     font-size: 18px;
@@ -66,4 +94,30 @@ a[href="#"]{
     transform: translateX(-20px);
 }
 
+.subtitulo{
+    text-align: center;
+    font-size: 30px;
+}
 
+.container {
+    text-align: center;
+    margin: 80px;
+    font-size: 25px;
+}
+
+.evento {
+    margin: 20px;
+}
+
+h4 {
+    font-size: 21px;
+    border: thin solid black;
+    padding: 0px 15px 5px;
+    margin: 20px 10px 5px;
+    display: inline-block;
+    background: gold;
+}
+
+.evento>p{
+    font-size: 20px;
+}
