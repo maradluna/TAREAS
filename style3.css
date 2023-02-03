@@ -11,10 +11,10 @@ header{
     height: 200px;
 }
 
-header>img{
-    width: 250px;
-
-    }
+.logo {
+    display: flex;
+    justify-content: center;
+}
 
 .logo>img{
     width: 60%;
@@ -36,26 +36,7 @@ h1 {
     padding: 30px 10px 30px;
     margin: 0px 0px 50px;
     background: gold;
-    position: relative;
-}
 
-img#diseño2 {
-    position: fixed;
-    left: 2%;
-    top: 17%;
-}
-
-img#diseño1 {
-    position: fixed;
-    top: 41%;
-    left: 2%;
-}
-
-.imagen1 {
-    opacity: 1;
-    position: fixed;
-    left: 2%;
-    top: 74%;
 }
 
 h3 {
@@ -65,19 +46,19 @@ h3 {
     background-color: black;
     color: white;
     padding: 10px 0px 15px;
-    position: relative;
-    left: 32%;
     WIDTH: 555px;
 }
 
 nav {
-    position: absolute;
-    right: 1%;
-    top: 16%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width: auto;
+    height: 2px;
 }
 
 nav>a{
-    display: block;
     text-decoration: none;
     background: whitesmoke;
     color: black;
@@ -87,7 +68,7 @@ nav>a{
     text-align: center;
     font-size: 18px;
     padding: 5px;
-    margin: 12px;
+    margin: 12px 40px 12px;
 }
 
 a[href="#"]{
@@ -97,12 +78,16 @@ a[href="#"]{
 .subtitulo{
     text-align: center;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     text-align: center;
-    margin: 80px;
+    margin: 50px;
     font-size: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .evento {
@@ -113,7 +98,7 @@ h4 {
     font-size: 21px;
     border: thin solid black;
     padding: 0px 15px 5px;
-    margin: 20px 10px 5px;
+    margin: 0px 0px 5px;
     display: inline-block;
     background: gold;
 }
@@ -138,3 +123,15 @@ h4 {
 .containerContact>p{
     margin: 10px;
 }
+
+.containerImagenes{
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 250px;
+    justify-content: space-between;
+    position: fixed;
+    top: 18%;
+    margin-left: 40px;
+}
+
