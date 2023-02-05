@@ -5,13 +5,6 @@
     font-family: system-ui;
 }
 
-
-header{
-    width: 100%;
-    height: 200px;
-    margin: 20px;
-}
-
 .logo {
     display: flex;
     justify-content: center;
@@ -53,10 +46,10 @@ h3 {
 nav {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: end;
     width: auto;
-    height: 2px;
+    height: 0px;
 }
 
 nav>a{
@@ -89,6 +82,7 @@ a[href="#"]{
     font-size: 25px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .evento {
@@ -114,8 +108,6 @@ h4 {
     font-size: 25px;
     display: flex;
     flex-direction: column;
-    width: 800px;
-    height: auto;
     justify-content: center;
     align-items: center;
 }
@@ -141,25 +133,36 @@ h4 {
     margin-left: 40px;
 }
 
-dt#titulo{
+.imagen1 {
+    height: 170px;
+}
+
+#titulo{
 font-weight: bold;
 text-align: center;
 font-size: 30px;
 }
 
-dd#titulo{
+p{
     font-size: 25px;
     text-align: center;
 }
 
-dt#sports{
-font-size: 30px;
-font-weight: bold;
-margin: 50px 100px 20px;
-}
-
-dd#sports{
+#subtituloRules{
     font-size: 25px;
-    margin: 0px 100px 0px;
+    font-weight: bold;
+    margin: 40px 0px 20px;
 }
 
+#textoRules{
+    font-size: 20px;
+    text-indent: 40px;
+} 
+
+.tituloRules{
+margin: 30px;
+}
+
+.rules{
+    padding: 0px 300px 0px 100px;
+}
