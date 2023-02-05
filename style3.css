@@ -141,9 +141,10 @@ h4 {
 font-weight: bold;
 text-align: center;
 font-size: 30px;
+margin: 66px 0px 0px;
 }
 
-p{
+header>p{
     font-size: 25px;
     text-align: center;
 }
@@ -151,18 +152,25 @@ p{
 #subtituloRules{
     font-size: 25px;
     font-weight: bold;
-    margin: 40px 0px 20px;
+    margin: 50px 0px 20px;
 }
 
 #textoRules{
     font-size: 20px;
-    text-indent: 40px;
+
 } 
 
-.tituloRules{
-margin: 30px;
+.rules{
+    padding: 0px 350px 100px 100px;
 }
 
-.rules{
-    padding: 0px 300px 0px 100px;
+.age{
+    text-indent: 40px;
+    list-style: inside lower-latin;
+}
+
+#ultimoParrafo{
+    list-style-type: circle;
+    text-indent: 40px;
+    font-size: 20px;
 }
