@@ -149,16 +149,11 @@ header>p{
     text-align: center;
 }
 
-#subtituloRules{
+.subtituloRules{
     font-size: 25px;
     font-weight: bold;
     margin: 50px 0px 20px;
 }
-
-#textoRules{
-    font-size: 20px;
-
-} 
 
 .rules{
     padding: 0px 350px 100px 100px;
@@ -169,8 +164,13 @@ header>p{
     list-style: inside lower-latin;
 }
 
-#ultimoParrafo{
+.ultimoParrafo{
     list-style-type: circle;
     text-indent: 40px;
     font-size: 20px;
 }
+
+.textoRules{
+    font-size: 20px;
+} 
+
