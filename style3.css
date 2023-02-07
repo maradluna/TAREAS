@@ -5,6 +5,10 @@
     font-family: system-ui;
 }
 
+header{
+    height: 272px;
+}
+
 .logo {
     display: flex;
     justify-content: center;
@@ -172,23 +176,58 @@ header>p{
 
 .textoRules{
     font-size: 20px;
+    list-style: inside decimal ;
 } 
 
 .subtitulosInfo{
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    margin: 10px 30px 10px;
-}
-
-.subtitulo1{
+    justify-content: space-around;
     font-size: 30px;
     font-style: italic;
-    margin: 0px 0px 15px;
+    height: auto;
+    background-size: cover;
+    margin-inline-start: 3em;
+    margin-block: -3em;
+    line-height: 2em;
 }
 
 .subtitulo2{
-    font-size: 30px;
-    font-style: italic;
     text-decoration-line: underline;
+    font-size: 25px;
 }
+
+table {
+    border-collapse: separate;
+    width: 75%;
+    margin-block-start: 1em;
+    line-height: 1.7em;
+}
+
+th, td{
+    text-align: left;
+}
+
+td.fecha {
+    text-align: center;
+    padding-right: 3em;
+}
+
+td.lugar{
+    padding-right: -1em;
+}
+
+.information {
+    font-size: 25px;
+    margin: 3em 2em 0em 0em;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3em;
+    font-size: 25px;
+    padding: 0em 3em 3em 0em;
+}
+
