@@ -234,9 +234,7 @@ td.lugar{
 }
 
 section {
-    width: 900px;
-    border: 1px solid;
-    border-radius: 16px;
+    width: 800px;
     margin: 5.3rem auto;
     position: relative;
 }
@@ -251,6 +249,7 @@ fieldset {
     flex-direction: row;
     border: none;
     justify-content: center;
+    margin-left: 4em;
 }
 
 form {
@@ -267,15 +266,63 @@ label {
     align-items: baseline;
 }
 
-span {
-    margin-right: 10px;
-}
 
 input {
     height: 1.5rem;
-    margin: 1rem 3.3rem 1rem 0px;
+    margin: 1rem 1rem 1rem 0px;
     display: inline;
-    font-size: 1.7em;
+    font-size: 1.3em;
     border: none;
     border-bottom: 1px solid black;
+}
+
+#grade>div{
+    margin-top: 1em;
+}
+
+fieldset#grade, fieldset#bday-gender, fieldset#city {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 898px;
+    margin: 0px;
+}
+
+#grade>label {
+    width: fit-content;
+    align-items: center;
+}
+
+#grade input[type="radio"], #gender input[type="radio"] {
+    margin-left: 2px;
+}
+
+#gender>div {
+    margin-right: 1em;
+}
+
+label#gender {
+    width: auto;
+    align-items: center;
+}
+
+label#bday{
+    width: 28em;
+}
+
+#adress{
+    width: 6.5em;
+}
+
+#adress input[type="text"] {
+    width: 30em;
+}
+
+.closestschool{
+   font-size: 20px;
+   font-weight: bold; 
+}
+
+.registration{
+    margin: 15px 0px 10px;
 }
