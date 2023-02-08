@@ -326,3 +326,10 @@ label#bday{
 .registration{
     margin: 15px 0px 10px;
 }
+
+#locations{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
