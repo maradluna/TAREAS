@@ -333,3 +333,8 @@ label#bday{
     font-weight: bold;
     text-decoration: underline;
 }
+
+div>.locations{
+    display: flex;
+    justify-content: center;
+}
