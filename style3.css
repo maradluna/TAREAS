@@ -190,7 +190,7 @@ header>p{
     height: auto;
     background-size: cover;
     margin-inline-start: 3em;
-    margin-block: 2em;
+    margin-block: 2em 0em;
     line-height: 2em;
 }
 
@@ -334,7 +334,16 @@ label#bday{
     text-decoration: underline;
 }
 
-div>.locations{
+.maps{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+iframe {
+    margin: 10px;
 }
